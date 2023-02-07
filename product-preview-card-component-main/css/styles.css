@@ -1,8 +1,22 @@
+/* google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Montserrat:wght@400;600&display=swap');
+
 :root {
-    
+    --clr-primary-400: hsl(158,36%,37%);
+    --clr-secondary-200:hsl(30,38%,92%);
+
+    --clr-neutral-900:hsl(212,12%,14%);
+    --clr-neutral-400:hsl(228,12%,48%);
+    --clr-neutral-100:hsl(0,0%,100%);
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+
 }
-
-
 
 /*
   1. Use a more-intuitive box-sizing model.
@@ -50,4 +64,16 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
+
+/* general styling  */
+
+body {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+}
+
+
  
